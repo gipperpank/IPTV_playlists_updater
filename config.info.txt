@@ -1,0 +1,127 @@
+{
+    "// === ОСНОВНЫЕ НАСТРОЙКИ ===": "==========================================",
+    
+    "update_frequency_hours": 6,
+    "// update_frequency_hours": "Частота обновления плейлистов в часах (1-24)",
+    
+    "sorting": "ping",
+    "// sorting": "Сортировка каналов: 'ping' (по пингу), 'name' (по имени), 'group' (по группам)",
+    
+    "output_playlist": "local_playlist.m3u",
+    "// output_playlist": "Имя выходного файла плейлиста",
+    
+    "// === НАСТРОЙКИ ЛОГИРОВАНИЯ ===": "======================================",
+    
+    "enable_logging": true,
+    "// enable_logging": "Включить логирование (true/false)",
+    
+    "quiet_mode": true,
+    "// quiet_mode": "Тихий режим - минимальный вывод в консоль (true/false)",
+    
+    "log_level": "INFO",
+    "// log_level": "Уровень детализации логов: 'DEBUG', 'INFO', 'WARNING', 'ERROR'",
+    
+    "show_progress": true,
+    "// show_progress": "Показывать прогресс проверки каналов (true/false)",
+    
+    "log_errors_only": false,
+    "// log_errors_only": "Логировать только ошибки в консоль (полные логи в файле) (true/false)",
+    
+    "// === НАСТРОЙКИ ПРОВЕРКИ КАНАЛОВ ===": "================================",
+    
+    "enable_ping_check": true,
+    "// enable_ping_check": "Включить проверку пинга каналов (true/false)",
+    
+    "enable_availability_check": true,
+    "// enable_availability_check": "Включить проверку доступности каналов (true/false)",
+    
+    "max_concurrent_checks": 20,
+    "// max_concurrent_checks": "Максимальное количество одновременных проверок каналов (10-50)",
+    
+    "timeout_seconds": 8,
+    "// timeout_seconds": "Таймаут проверки одного канала в секундах (3-15)",
+    
+    "remove_duplicates": true,
+    "// remove_duplicates": "Удалять дубликаты каналов (оставлять с лучшим пингом) (true/false)",
+    
+    "min_channel_name_length": 3,
+    "// min_channel_name_length": "Минимальная длина имени канала (1-10)",
+    
+    "// === НАСТРОЙКИ СЕТИ И БЕЗОПАСНОСТИ ===": "=============================",
+    
+    "verify_ssl": false,
+    "// verify_ssl": "Проверять SSL сертификаты (true/false) - false для проблемных сайтов",
+    
+    "request_timeout": 10,
+    "// request_timeout": "Общий таймаут HTTP запросов в секундах (5-30)",
+    
+    "connection_timeout": 3,
+    "// connection_timeout": "Таймаут установки соединения в секундах (2-10)",
+    
+    "read_timeout": 5,
+    "// read_timeout": "Таймаут чтения данных в секундах (3-15)",
+    
+    "// === НАСТРОЙКИ ПУЛА СОЕДИНЕНИЙ ===": "=================================",
+    
+    "pool_connections": 30,
+    "// pool_connections": "Максимальное количество соединений в пуле (20-100)",
+    
+    "pool_maxsize": 50,
+    "// pool_maxsize": "Максимальный размер пула соединений (30-150)",
+    
+    "pool_block": false,
+    "// pool_block": "Блокировать при переполнении пула (true/false) - false для избежания ошибок",
+    
+    "// === НАСТРОЙКИ ПРОБЛЕМНЫХ СЕРВЕРОВ ===": "=============================",
+    
+    "problematic_domains_timeout": 8,
+    "// problematic_domains_timeout": "Увеличенный таймаут для проблемных доменов в секундах (5-20)",
+    
+    "problematic_domains": [
+        "rutube.ru",
+        "youtube.com", 
+        "vk.com",
+        "mail.ru",
+        "rambler.ru",
+        "ok.ru",
+        "//": "Добавьте сюда проблемные домены с медленным ответом"
+    ],
+    
+    "// === НАСТРОЙКИ ФАЙЛОВ И РЕСУРСОВ ===": "===============================",
+    
+    "backup_playlists": true,
+    "// backup_playlists": "Создавать бэкапы плейлистов (true/false)",
+    
+    "max_backup_files": 5,
+    "// max_backup_files": "Максимальное количество бэкапов (3-10)",
+    
+    "clean_html_files": true,
+    "// clean_html_files": "Очищать HTML контент при загрузке плейлистов (true/false)",
+    
+    "// === РЕКОМЕНДОВАННЫЕ ПРЕСЕТЫ ===": "===================================",
+    
+    "// БЫСТРЫЙ РЕЖИМ": "====================================================",
+    "// update_frequency_hours": 12,
+    "// max_concurrent_checks": 30,
+    "// timeout_seconds": 5,
+    "// connection_timeout": 2,
+    "// read_timeout": 4,
+    "// quiet_mode": true,
+    
+    "// ТОЧНЫЙ РЕЖИМ": "=====================================================",
+    "// update_frequency_hours": 24,
+    "// max_concurrent_checks": 15,
+    "// timeout_seconds": 12,
+    "// connection_timeout": 5,
+    "// read_timeout": 10,
+    "// quiet_mode": false,
+    "// verify_ssl": true,
+    
+    "// ОТЛАДОЧНЫЙ РЕЖИМ": "=================================================",
+    "// update_frequency_hours": 1,
+    "// max_concurrent_checks": 10,
+    "// timeout_seconds": 15,
+    "// quiet_mode": false,
+    "// log_level": "DEBUG",
+    "// show_progress": true
+}

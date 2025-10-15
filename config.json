@@ -1,0 +1,41 @@
+{
+    "update_frequency_hours": 6,
+    "sorting": "ping",
+    "output_playlist": "local_playlist.m3u",
+    
+    "enable_logging": true,
+    "quiet_mode": true,
+    "log_level": "INFO",
+    "show_progress": true,
+    "log_errors_only": false,
+    
+    "enable_ping_check": true,
+    "enable_availability_check": true,
+    "max_concurrent_checks": 20,
+    "timeout_seconds": 8,
+    "remove_duplicates": true,
+    "min_channel_name_length": 3,
+    
+    "verify_ssl": false,
+    "request_timeout": 10,
+    "connection_timeout": 3,
+    "read_timeout": 5,
+    
+    "pool_connections": 30,
+    "pool_maxsize": 50,
+    "pool_block": false,
+    
+    "problematic_domains_timeout": 8,
+    "problematic_domains": [
+        "rutube.ru",
+        "youtube.com",
+        "vk.com",
+        "mail.ru",
+        "rambler.ru",
+        "ok.ru"
+    ],
+    
+    "backup_playlists": true,
+    "max_backup_files": 5,
+    "clean_html_files": true
+}

@@ -1,0 +1,16 @@
+# Основные плейлисты
+https://telekarta-tv.ru/wp-content/uploads/ru-all-1.m3u
+https://raw.githubusercontent.com/IPTVSHARED/iptv/refs/heads/main/IPTV_SHARED.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_ntv.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_smotrim.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_tvteleport.m3u
+https://raw.githubusercontent.com/iptv-org/iptv/master/streams/ru_zabava.m3u
+https://raw.githubusercontent.com/smolnp/IPTVru/refs/heads/gh-pages/IPTVru.m3u
+https://raw.githubusercontent.com/Spirt007/Tvru/refs/heads/Master/Rus.m3u
+https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/refs/heads/main/LoganetXAll.m3u
+https://raw.githubusercontent.com/Karnei4/Karnei4.github.io/refs/heads/master/s/Mediacentr/Zabava-FREE-Karnei4.m3u
+https://raw.githubusercontent.com/blackbirdstudiorus/LoganetXIPTV/refs/heads/main/LoganetXStrawberry.m3u
+# Резервные плейлисты
+# https://example.com/backup1.m3u
+# https://example.com/backup2.m3u
